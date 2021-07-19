@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: #aaa;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+  }
+  
+  #content {
+    max-width: 500px;
+    margin: 3em auto 0;
+    box-shadow: 4px 4px 4px 4px rgb(209, 209, 209);
+    height: 60vh;
+    background-color: #fff;
+    position: relative;
+    border-radius: 4px;
+  }
+  
+  .color {
+    background-color: coral;
+  }
+  
+  .justify-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .header {
+    height: 30px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    font-family: "Roboto", sans-serif;
+    padding: 20px 20px 30px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .edit-container {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  
+  .input {
+    border: none;
+    font-size: 25px;
+    width: 100%;
+    outline: none;
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .task-description {
+    outline: none;
+  }
+  
+  .form,
+  .tasklist {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+  }
+  
+  .tasklist {
+    height: 50px;
+    align-items: center;
+  }
+  
+  .task {
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    cursor: text;
+  }
+  
+  .task p {
+    margin-left: 15px;
+  }
+  
+  .footer {
+    height: 8vh;
+    position: fixed;
+    bottom: 32%;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    cursor: pointer;
+  }
+  
+  .button {
+    border: none;
+    font-size: 18px;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+  }
+  
+  .icon {
+    font-size: 15px;
+  }
+  
+  .deleteIcon {
+    font-size: 25px;
+  }
+  
+  .svg {
+    width: 20px;
+  }
+  
+  .hover {
+    opacity: 0.5;
+    background-color: #aaa;
+  }
+  
+  .dragstart {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+  }
+  
+  .none {
+    display: none;
+  }
+  
